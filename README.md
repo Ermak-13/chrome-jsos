@@ -1,9 +1,11 @@
-# JSOS
+# Chrome JSOS
 
 **Javascript Operation System.**
 It is chrome extension which override new tab page.
 And make it like as normal operation system with
 modules (applications), panel, desktop, settings & etc.
+
+Chrome JSOS is extension build.
 
 ## Contribute
 * Developing new JSOS Module - https://github.com/Ermak-13/jsos-module.

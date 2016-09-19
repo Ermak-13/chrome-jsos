@@ -8,6 +8,15 @@ var sprintf = require('sprintf-js').sprintf,
     log = require('./log');
 
 var installScript = function (url) {
+  var message = 
+    'This feature is disabled because ' +
+    'it break google "Developer Program Policies":\n' +
+    '"Do not post an app where the primary functionality ' +
+    'is to install or launch another app, theme, or extension."\n\n' +
+    'If you want you can install JSOS directly - https://github.com/Ermak-13/jsos';
+
+  return alert(message);
+
   log('info', sprintf('install script %s.', url));
 
   if (isUrl(url) && global.Settings.get('scripts_is_downloadable')) {
