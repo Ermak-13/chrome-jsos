@@ -83,7 +83,11 @@ gulp.task('build', function () {
     './jsos.css',
     './manifest.json',
     './newtab.html',
-    './README.md'
+    './README.md',
+    './jsos-clock.js',
+    './jsos-calendar.js',
+    './jsos-webopener.js',
+    './jsos-sticker.js'
   ];
 
   gulp.src(files)
